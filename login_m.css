@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    body{
+        margin: 100px;
+        justify-content: center;
+        background-color: rgba(19, 18, 20, 0.912);
+    }
+
+}
+.box{
+    background-color: rgba(75, 74, 76, 0.912);
+    height: 500px;
+    width: 500px;
+    margin: 100px 50px 10px 400px;
+    justify-content: center;
+    box-shadow: 0px 0px 50px rgb(92, 193, 248);
+    text-emphasis-color:rgb(213, 229, 238) ;
+    border-radius: 4%;
+    
+    
+}
+.boxh1{
+    /* background-color:rgba(138, 134, 142, 0.811); */
+    padding:20px ;
+    text-align: center;
+    font-size: x-large;
+    color: beige;
+    font-family: "Permanent Marker", cursive;
+}
+.nbox{
+    /* background-color:rgba(138, 134, 142, 0.811); */
+    padding: 30px 0px 80px 100px;
+}
+
+.btn {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 274px;
+    margin: 20px 0px 0px 10px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: rgb(31, 233, 240);
+    border: 2px solid aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    
+} 
+.btn:hover{
+    background-color: transparent;
+    color: white;
+}
+    
+.input{
+    display: flex;
+    width: 274px;
+    padding: 8px;
+    border-radius: 50px;
+}
